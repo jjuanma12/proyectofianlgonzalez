@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ecommerce Ropa de Blanco</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <header>
+    <h1>Tienda de Ropa de Blanco</h1>
+  </header>
+
+  <main>
+    <section id="productos-container" class="productos"></section>
+    <section id="carrito-container" class="carrito">
+      <h2>Carrito</h2>
+      <ul id="lista-carrito"></ul>
+      <p>Total: $<span id="total">0</span></p>
+      <button id="finalizar-compra">Finalizar Compra</button>
+    </section>
+  </main>
+
+  <div id="formulario-compra" style="display:none; padding:1rem">
+    <h2>Formulario de Compra</h2>
+    <form id="formulario">
+      <label>Nombre: <input type="text" id="nombre" value="Juan" required></label><br>
+      <label>Email: <input type="email" id="email" value="juan@mail.com" required></label><br>
+      <label>Dirección: <input type="text" id="direccion" value="Calle Falsa 123" required></label><br>
+      <button type="submit">Confirmar Compra</button>
+    </form>
+  </div>
+    <script src="app.js"></script>
+</body>
+</html>
