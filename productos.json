@@ -1,31 +1,30 @@
 [
-    {
-      "id": 1,
-      "nombre": "Sábana 2 Plazas",
-      "categoria": "sabanas",
-      "precio": 8500,
-      "imagen": "img/sabana2plazas.jpg"
-    },
-    {
-      "id": 2,
-      "nombre": "Juego de Toallas x2",
-      "categoria": "toallas",
-      "precio": 5200,
-      "imagen": "img/toallasx2.jpg"
-    },
-    {
-      "id": 3,
-      "nombre": "Toallón Extra Suave",
-      "categoria": "toallones",
-      "precio": 6700,
-      "imagen": "img/toallon.jpg"
-    },
-    {
-      "id": 4,
-      "nombre": "Sábana 1 Plaza Infantil",
-      "categoria": "sabanas",
-      "precio": 7300,
-      "imagen": "img/sabanaInfantil.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "nombre": "Sábana 2 Plazas",
+    "categoria": "sabanas",
+    "precio": 8500,
+    "imagen": "img/sabana2plazas.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Juego de Toallas x2",
+    "categoria": "toallas",
+    "precio": 5200,
+    "imagen": "img/toallasx2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Toallón Extra Suave",
+    "categoria": "toallones",
+    "precio": 6700,
+    "imagen": "img/toallon.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Sábana 1 Plaza Infantil",
+    "categoria": "sabanas",
+    "precio": 7300,
+    "imagen": "img/sabanaInfantil.jpg"
+  }
+]
